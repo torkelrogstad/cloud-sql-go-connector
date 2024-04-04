@@ -53,6 +53,12 @@ const (
 )
 
 var (
+	// ErrDialerClosed is used when a caller invokes Dial after closing the
+	// Dialer.
+	ErrDialerClosed = errors.New(
+		"Dialer has been closed. Close should be " +
+			"called only when a database connection is no longer needed.",
+	)
 	// versionString indicates the version of this library.
 	//go:embed version.txt
 	versionString string
