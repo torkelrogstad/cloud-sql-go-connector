@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.1](https://github.com/GoogleCloudPlatform/cloud-sql-go-connector/compare/v1.9.0...v1.9.1) (2024-05-10)
+
+
+### Bug Fixes
+
+* retry 50x errors with exponential backoff ([#781](https://github.com/GoogleCloudPlatform/cloud-sql-go-connector/issues/781)) ([40dc789](https://github.com/GoogleCloudPlatform/cloud-sql-go-connector/commit/40dc789baabbe40cebabee7a287222940b120e6a))
+
 ## [1.9.0](https://github.com/GoogleCloudPlatform/cloud-sql-go-connector/compare/v1.8.1...v1.9.0) (2024-04-16)
 
 
